@@ -20,7 +20,7 @@ services:
     container_name: grafterburner-grafana
     image: "grafana/grafana:latest"
     restart: always
-    user: "1000"
+    user: "root"
     ports:
       - 8025:3000
     volumes:
